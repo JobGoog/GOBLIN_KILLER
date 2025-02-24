@@ -1,4 +1,4 @@
 # Игра 
 
-[![Build status](https://ci.appveyor.com/api/projects/status/bsp7nffvgaoi93mt?svg=true)](https://ci.appveyor.com/project/JobGoog/dom)
-[Посмотреть на GitHub Pages](https://jobgoog.github.io/dom/)
+[![Build status](https://ci.appveyor.com/api/projects/status/59iiw1hvkssjtbml?svg=true)](https://ci.appveyor.com/project/JobGoog/goblin-killer)
+[Посмотреть на GitHub Pages](https://jobgoog.github.io/GOBLIN_KILLER/)
