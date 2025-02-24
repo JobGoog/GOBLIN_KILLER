@@ -1,0 +1,22 @@
+#grid {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  gap: 10px;
+  width: 440px;
+  height: 440px; 
+  background-color: #fff; 
+}
+
+.grid-cell {
+  width: 100px;
+  height: 100px;
+  background-color: #98c06b;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
