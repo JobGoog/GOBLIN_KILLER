@@ -5,10 +5,6 @@ import "./styles.css";
 class Game {
   constructor() {
     this.gridContainer = document.getElementById("grid");
-    if (!this.gridContainer) {
-      console.error("Element with id 'grid' not found");
-      return;
-    }
     this.GRID_SIZE = 16;
     this.currentCellIndex = null;
     this.missedCount = 0;
@@ -22,13 +18,11 @@ class Game {
   }
 
   createGrid() {
-    console.log("Creating grid...");
     for (let i = 0; i < this.GRID_SIZE; i++) {
       const cell = document.createElement("div");
       cell.classList.add("grid-cell");
       cell.dataset.index = i;
       this.gridContainer.appendChild(cell);
-      console.log(`Created cell ${i}`);
     }
   }
 
